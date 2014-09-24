@@ -1,3 +1,5 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:100,300");
+@import url("http://fonts.googleapis.com/css?family=Lora|Varela+Round");
 /* line 347, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.4.3/";
@@ -9006,7 +9008,100 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 3, ../scss/overrides.css.scss */
-body {
-  width: 800px;
+/* line 10, ../scss/overrides.scss */
+.row {
+  max-width: 100rem;
+}
+
+/* line 14, ../scss/overrides.scss */
+#top-nav-row {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 100px;
+  background-color: #3E6B8B;
+  box-shadow: 0px 3px 3px #363531;
+}
+
+/* line 24, ../scss/overrides.scss */
+#home-content-container {
+  padding: 0px;
+  position: relative;
+  top: 100px;
+  background-color: #F7F3E4;
+}
+
+/* line 31, ../scss/overrides.scss */
+#top-photo-row .columns {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 20px;
+}
+
+/* line 37, ../scss/overrides.scss */
+#top-photo-row img {
+  width: 100%;
+  box-shadow: 0px 2px 1px #363531;
+}
+
+/* line 42, ../scss/overrides.scss */
+#picture-row {
+  padding-top: 50px;
+}
+
+/* line 46, ../scss/overrides.scss */
+#lower-content-row {
+  margin: 40px auto 40px auto;
+}
+
+/* line 50, ../scss/overrides.scss */
+#footer-row {
+  height: 75px;
+  background-color: #3E6B8B;
+  box-shadow: 0px -3px 1px #363531;
+}
+
+/* line 57, ../scss/overrides.scss */
+#footer-row p {
+  color: #D9D4CA;
+  position: relative;
+  top: 22.5px;
+}
+
+/* line 63, ../scss/overrides.scss */
+li {
+  text-align: center;
+}
+
+/* line 67, ../scss/overrides.scss */
+p {
+  font-family: lato;
+  color: #2C4F66;
+}
+
+/* line 72, ../scss/overrides.scss */
+h1, h2, h3 {
+  font-family: 'Varela Round', sans-serif;
+  color: #2C4F66;
+}
+
+/* line 77, ../scss/overrides.scss */
+.middle {
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+/* line 82, ../scss/overrides.scss */
+#title-in-nav {
+  position: relative;
+  top: 1.625rem;
+  color: #F7F3E4;
+}
+
+/* line 88, ../scss/overrides.scss */
+hr.style-eight {
+  padding: 0;
+  border-bottom: 2px solid #3E6B8B;
+  color: #3E6B8B;
 }

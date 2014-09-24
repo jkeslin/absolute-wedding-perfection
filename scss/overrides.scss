@@ -1,0 +1,92 @@
+@import url('http://fonts.googleapis.com/css?family=Lato:100,300');
+@import url('http://fonts.googleapis.com/css?family=Lora|Varela+Round');  
+
+$navheight: 100px;
+$footerheight: 75px;
+$tancolor: #F7F3E4;
+$navycolor: #3E6B8B;
+$dropshadcolor: #363531;
+
+.row {
+  max-width: 100rem;
+}
+
+#top-nav-row {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: $navheight;
+  background-color: $navycolor;
+  box-shadow: 0px 3px 3px $dropshadcolor;
+}
+
+#home-content-container {
+  padding: 0px;
+  position: relative;
+  top: $navheight;
+  background-color: $tancolor;
+}
+
+#top-photo-row .columns {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 20px;
+}
+
+#top-photo-row img {
+  width: 100%;
+  box-shadow: 0px 2px 1px $dropshadcolor;
+}
+
+#picture-row {
+  padding-top: 50px;
+}
+
+#lower-content-row {
+  margin: 40px auto 40px auto;
+}
+
+#footer-row {
+  height: 75px;
+  background-color: $navycolor;
+  box-shadow: 0px -3px 1px $dropshadcolor;
+
+}
+
+#footer-row p {
+  color: #D9D4CA;
+  position: relative;
+  top: $footerheight/2 - 15;
+}
+
+li {
+  text-align: center;
+}
+
+p  {
+  font-family: lato;
+  color: #2C4F66; 
+}
+
+h1, h2, h3 {
+  font-family: 'Varela Round', sans-serif;
+  color: #2C4F66; 
+}
+
+.middle {
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+#title-in-nav {
+  position: relative;
+  top: 1.625rem;
+  color: $tancolor;
+}
+
+hr.style-eight {
+    padding: 0;
+    border-bottom: 2px solid $navycolor;
+    color: $navycolor;
+}
